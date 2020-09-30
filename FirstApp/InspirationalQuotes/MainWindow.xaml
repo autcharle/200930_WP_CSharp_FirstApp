@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:InspirationalQuotes"
         mc:Ignorable="d"
         Title="Inspirational Quotes" Height="880" Width="808"
-        WindowStartupLocation="CenterScreen" Loaded="Window_Loaded">
+        WindowStartupLocation="CenterScreen" Loaded="Window_Loaded" ResizeMode="NoResize">
     <Canvas>
         <Image Name="quotesImage" Loaded="quotesImage_Loaded"
                Width="800" Height="800"/>
@@ -15,5 +15,18 @@
                FontSize="14"
                FontStyle="Italic"
                Canvas.Left="355" Canvas.Top="808"/>
+        <Button Name="nextButton"
+                Canvas.Left="528" Canvas.Top="804"
+                Width="250" Height="31"
+                FontSize="18" FontFamily="Arial"
+                Click="nextButton_Click" Background="#FF53E5F3"
+                Padding="5">
+            <StackPanel Orientation="Horizontal"
+                        VerticalAlignment="Center">
+                <TextBlock Margin="10,0"
+                           HorizontalAlignment="Center" VerticalAlignment="Center">Next</TextBlock>
+                <Image Source="Images/next.png"/>
+            </StackPanel>
+        </Button>
     </Canvas>
 </Window>

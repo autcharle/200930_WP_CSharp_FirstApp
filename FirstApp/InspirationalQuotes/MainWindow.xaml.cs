@@ -88,5 +88,12 @@ namespace InspirationalQuotes {
                     );
             quotesImage.Source = imageToShow;
         }
+
+        private void nextButton_Click(object sender, RoutedEventArgs e)
+        {
+            timer.Stop();
+            timer.Start();
+            showQuotesImage();
+        }
     }
 }

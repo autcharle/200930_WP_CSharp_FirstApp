@@ -34,6 +34,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>creativity.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -115,6 +118,12 @@
     <Resource Include="Images\motiv7.jpg" />
     <Resource Include="Images\motiv8.jpg" />
     <Resource Include="Images\motiv9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="creativity.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\next.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

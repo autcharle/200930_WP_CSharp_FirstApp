@@ -5,8 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:InspirationalQuotes"
         mc:Ignorable="d"
-        Title="Inspirational Quotes" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        Title="Inspirational Quotes" Height="880" Width="808"
+        WindowStartupLocation="CenterScreen" Loaded="Window_Loaded">
+    <Canvas>
+        <Image Name="quotesImage" Loaded="quotesImage_Loaded"
+               Width="800" Height="800"/>
+        <Label Content="Created by TTT"
+               FontFamily="Times New Roman"
+               FontSize="14"
+               FontStyle="Italic"
+               Canvas.Left="355" Canvas.Top="808"/>
+    </Canvas>
 </Window>

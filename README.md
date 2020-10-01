@@ -22,7 +22,7 @@
 
 	- Chưa có.
 
-- Các chức năng, đặc điểm đặc sắc của đồ án đề nghị cộng điểm.
+- Các chức năng, đặc điểm đặc sắc của đồ án đề nghị cộng điểm
 
 *Project 1*
 
@@ -42,6 +42,6 @@
 
 - Điểm đề nghị cho bài tập (Recommended Grade): 9.0
 
-- Link Youtube Demo: 
+- Link Youtube Demo: https://youtu.be/WkVwGl_el50
 
 *Name of project:* `1712891_FirstUIApp_InspirationalQuotes_EnglishByImage.zip/ .rar`

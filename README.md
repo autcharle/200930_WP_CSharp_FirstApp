@@ -44,4 +44,4 @@
 
 - Link Youtube Demo: https://youtu.be/WkVwGl_el50
 
-*Name of project:* `1712891_FirstUIApp_InspirationalQuotes_EnglishByImage.zip/ .rar`
+*Name of project:* `1712891_FirstUIApp_InspirationalQuotes_EnglishByImages.zip/ .rar`

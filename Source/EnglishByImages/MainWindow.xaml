@@ -1,0 +1,39 @@
+﻿<Window x:Class="EnglishByImages.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EnglishByImages"
+        mc:Ignorable="d"
+        Title="English By Images" Height="450" Width="800"
+        WindowStartupLocation="CenterScreen" Loaded="Window_Loaded" ResizeMode="NoResize">
+    <Canvas Name="MainCanvas" Loaded="MainCanvas_Loaded">
+        <Image Name="Images" Loaded="Images_Loaded"
+               Width="288" Height="176"
+               Canvas.Left="256" Canvas.Top="50"/>
+        <Label Name="wordLabel" Width="600" Height="60"
+               Canvas.Left="100" Canvas.Top="280"
+               FontSize="30" FontFamily="Arial Black"
+               HorizontalContentAlignment="Center"
+               VerticalContentAlignment="Center"/>
+        <Button Name ="nextButton" Click="nextButton_Click"
+                Width="80" Height="50"
+                Canvas.Left="685" Canvas.Top="348"
+                Background="Transparent" BorderBrush="Transparent">
+            <StackPanel Orientation="Horizontal"
+                        VerticalAlignment="Center">
+                <Image Margin="10,0"
+                           HorizontalAlignment="Center" VerticalAlignment="Center" Source="Images/next.png"/>
+            </StackPanel>
+        </Button>
+        <Button Name ="infoButton" Click="infoButton_Click"
+                Width="60" Height="40" Canvas.Top="358"
+                Background="Transparent" BorderBrush="Transparent" Canvas.Left="10">
+            <StackPanel Orientation="Horizontal"
+                        VerticalAlignment="Center">
+                <Image Margin="10,0"
+                           HorizontalAlignment="Center" VerticalAlignment="Center" Source="Images/info.png"/>
+            </StackPanel>
+        </Button>
+    </Canvas>
+</Window>
